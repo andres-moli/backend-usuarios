@@ -15,13 +15,17 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:8080',
-        description: 'Servidor local',
+        url: 'http://86.48.0.98:8080',
+        description: 'Servidor Vps',
       },
       {
-        url: 'http://localhost:8080/api',
+        url: 'http://86.48.0.98:8080/api',
         description: 'Servidor local con prefijo API',
       },
+      {
+        url: 'http://localhost:3000',
+        description: 'Servidor local'
+      }
     ],
     components: {
       schemas: {
